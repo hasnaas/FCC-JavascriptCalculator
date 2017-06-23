@@ -1,0 +1,116 @@
+body{
+  font-family :Gruppo;
+  background-color:#818181;
+  background-image:url('https://img.gawkerassets.com/img/17lblwq7hv7b5jpg/ku-xlarge.jpg');
+  background-size:cover;
+  /*background-position:center;*/
+  margin-top:60px;
+}
+
+#calculator{
+  width:295px;
+  height:500px;
+  /*background-color:#e2dcdc;*/
+  border:2px solid #564a4a;
+  background:radial-gradient(circle,#e2dcdc,#564a4a);
+  border-radius:20px;
+  box-shadow: 10px 10px 110px #000;
+  padding-top:0;
+}
+h3{
+  font-weight:bold;
+  white-space: nowrap;
+  margin-top:0;
+}
+
+#screen{
+  margin-bottom:20px;
+  margin-top:10px;
+  box-sizing: border-box !important;
+}
+#bscreen{
+  width:100%;
+  font-size:28px;
+  text-align:right;
+  background-color:#C3C2AB;
+  border:none;
+  border-top:1px solid #818181;
+  border-left:1px solid #818181;
+  border-right:1px solid #818181;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  /*box-sizing: border-box;*/
+}
+#sscreen{
+  width:100%;
+  font-size:16px;
+  text-align:right;
+  background-color:#C3C2AB;
+  border:none;
+  border-bottom:1px solid #818181;
+  border-left:1px solid #818181;
+  border-right:1px solid #818181;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  /*box-sizing: border-box;*/
+}
+#keys{
+  /*box-sizing: border-box;*/
+}
+
+.bouton{
+  width:55px;
+  height :55px;
+  font-size:28px;
+  font-weight:bold;
+  text-align:center;
+  color:#FFF;
+  background:linear-gradient(#e2dcdc,#444444);
+  margin-bottom:10px;
+  margin-right :7px;
+  margin-left:0px;
+  border-radius:20px;
+  border:none;
+  border-bottom:4px solid #222121;
+}
+#multiply,#minus,#plu,#equal{
+  margin-right:0 !important;
+  margin-left:2px;
+}
+#ac,#ce{
+  background:linear-gradient(#e2dcdc,#A72D45);
+  border-bottom:4px solid #671C2A;
+}
+#zero{
+  width:120px;
+}
+#equal{
+  height:120px;
+  position:absolute;
+}
+.bouton:hover{
+  color:#FFF;
+  background-color:#444444;
+  border-bottom:4px solid #222121;
+}
+.bouton:active{
+  color:#FFF;
+  background-color:#444444;
+  border:none;
+  transform: translateY(4px);
+}
+
+.bouton:focus{
+  color:#FFF;
+  background-color:#444444;
+  border-bottom:4px solid #222121;
+  outline:none;
+}
+
+h5{
+  color:#FFF;
+}
+h5 a,h5 a:hover{
+  text-decoration:none;
+  color:#FFF;
+}
